@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="refresh" content='30'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus It | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navigation">
+        <nav>
+            <div class="navlist">
+            <a href="home.html"><img  class="logo" src="bus6.gif" alt="Site logo"></a>
+            </div>
+        </nav>
+    </div>
+
+    
+
+    <!-- <div class="banner">
+        <marquee behavior="" direction="left">Scan the QR Code from our mobile app to book your seat.</marquee>
+    </div> -->
+
+    <div class="bus_info">
+        
+        <table class="bus">
+            <tr class="heading">
+                <th><h1>Bus Number</h1></th>
+                <th><h1>Source</h1></th>
+                <th><h1>Destination</h1></th>
+                <th><h1>QR Code</h1></th>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn1"></td>
+                <td id="srcsta1"></td>
+                <td id="dststa1"></td>
+                <td id="qr1" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn2"></td>
+                <td id="srcsta2"></td>
+                <td id="dststa2"></td>
+                <td id="qr2" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn3"></td>
+                <td id="srcsta3"></td>
+                <td id="dststa3"></td>
+                <td id="qr3" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn4"></td>
+                <td id="srcsta4"></td>
+                <td id="dststa4"></td>
+                <td id="qr4" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn5"></td>
+                <td id="srcsta5"></td>
+                <td id="dststa5"></td>
+                <td id="qr5" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn6"></td>
+                <td id="srcsta6"></td>
+                <td id="dststa6"></td>
+                <td id="qr6" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn7"></td>
+                <td id="srcsta7"></td>
+                <td id="dststa7"></td>
+                <td id="qr7" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn8"></td>
+                <td id="srcsta8"></td>
+                <td id="dststa8"></td>
+                <td id="qr8" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn9"></td>
+                <td id="srcsta9"></td>
+                <td id="dststa9"></td>
+                <td id="qr9" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn10"></td>
+                <td id="srcsta10"></td>
+                <td id="dststa10"></td>
+                <td id="qr10" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn11"></td>
+                <td id="srcsta11"></td>
+                <td id="dststa11"></td>
+                <td id="qr11" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn12"></td>
+                <td id="srcsta12"></td>
+                <td id="dststa12"></td>
+                <td id="qr12" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn13"></td>
+                <td id="srcsta13"></td>
+                <td id="dststa13"></td>
+                <td id="qr13" class="qr"></td>
+            </tr>
+            
+            <tr class="entry">
+                <td id="bsn14"></td>
+                <td id="srcsta14"></td>
+                <td id="dststa14"></td>
+                <td id="qr14" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn15"></td>
+                <td id="srcsta15"></td>
+                <td id="dststa15"></td>
+                <td id="qr15" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn16"></td>
+                <td id="srcsta16"></td>
+                <td id="dststa16"></td>
+                <td id="qr16" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn17"></td>
+                <td id="srcsta17"></td>
+                <td id="dststa17"></td>
+                <td id="qr17" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn18"></td>
+                <td id="srcsta18"></td>
+                <td id="dststa18"></td>
+                <td id="qr18" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn19"></td>
+                <td id="srcsta19"></td>
+                <td id="dststa19"></td>
+                <td id="qr19" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn20"></td>
+                <td id="srcsta20"></td>
+                <td id="dststa20"></td>
+                <td id="qr20" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn21"></td>
+                <td id="srcsta21"></td>
+                <td id="dststa21"></td>
+                <td id="qr21" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn22"></td>
+                <td id="srcsta22"></td>
+                <td id="dststa22"></td>
+                <td id="qr22" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn23"></td>
+                <td id="srcsta23"></td>
+                <td id="dststa23"></td>
+                <td id="qr23" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn24"></td>
+                <td id="srcsta24"></td>
+                <td id="dststa24"></td>
+                <td id="qr24" class="qr"></td>
+            </tr>
+
+            <tr class="entry">
+                <td id="bsn25"></td>
+                <td id="srcsta25"></td>
+                <td id="dststa25"></td>
+                <td id="qr25" class="qr"></td>
+            </tr>
+            
+        </table>
+    </div>
+
+    <script src="qrcode.min.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyCDercmnDvKxmoQDiP-aej2HEVisirTR10",
+          authDomain: "finalminor-203e8.firebaseapp.com",
+          databaseURL: "https://finalminor-203e8-default-rtdb.firebaseio.com",
+          projectId: "finalminor-203e8",
+          storageBucket: "finalminor-203e8.appspot.com",
+          messagingSenderId: "264079913650",
+          appId: "1:264079913650:web:aeb324a42daec8b9b14fab",
+          measurementId: "G-Y0RV3XWYQ4"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+        
+        import { getFirestore, doc, getDoc, collection } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-firestore.js";
+
+        const db = getFirestore();
+
+        function createMap(obj) {                 // Function to create map of the given object
+            let map = new Map();
+            Object.keys(obj).forEach(key => {
+                map.set(key, obj[key]);
+            });
+            return map;
+        }
+
+        function stationList(map) {               // Function to take out values from the map and pass it to the qr code
+            const ret_map = new Map();
+            map.forEach(function(value,key) {
+                var new_map = createMap(map.get(key));
+                var sta = new_map.keys().next().value;
+                var time = new_map.get(new_map.keys().next().value);
+                ret_map.set(sta,time);
+            })
+            return ret_map;
+        }
+
+        // Bus 1
+        var ref = doc(db,"BusQR","36VrPUiVl5HlkknfRNYl");
+        var docSnap = await getDoc(ref);
+        
+        var map = createMap(docSnap.data().Sdetails);
+        var det = stationList(map);
+        var qr = docSnap.data();
+        
+        var qr1 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+        
+        document.getElementById("bsn1").innerHTML += qr.BusNum;
+        document.getElementById("srcsta1").innerHTML += createMap(map.get("5")).keys().next().value;
+        document.getElementById("dststa1").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr1", {
+        text: qr1,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+        
+        // Bus 2
+        ref = doc(db,"BusQR","59vH5bgL6ei55Czs5bMk");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr2 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn2").innerHTML += qr.BusNum;
+        document.getElementById("srcsta2").innerHTML += createMap(map.get("5")).keys().next().value;
+        document.getElementById("dststa2").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr2", {
+        text: qr2,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 3
+        ref = doc(db,"BusQR","5DLjdgCFOgFBtG1wZveI");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr3 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn3").innerHTML += qr.BusNum;
+        document.getElementById("srcsta3").innerHTML += createMap(map.get("6")).keys().next().value;
+        document.getElementById("dststa3").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr3", {
+        text: qr3,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 4
+        ref = doc(db,"BusQR","6yCs96u7spwzeNYXJSRV");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr4 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn4").innerHTML += qr.BusNum;
+        document.getElementById("srcsta4").innerHTML += createMap(map.get("8")).keys().next().value;
+        document.getElementById("dststa4").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr4", {
+        text: qr4,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 5
+        ref = doc(db,"BusQR","9MbgbpjmK2T8dktSO3h3");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr5 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn5").innerHTML += qr.BusNum;
+        document.getElementById("srcsta5").innerHTML += createMap(map.get("5")).keys().next().value;
+        document.getElementById("dststa5").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr5", {
+        text: qr5,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 6
+        ref = doc(db,"BusQR","B8SHX71ekRYcztYurF5L");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr6 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn6").innerHTML += qr.BusNum;
+        document.getElementById("srcsta6").innerHTML += createMap(map.get("7")).keys().next().value;
+        document.getElementById("dststa6").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr6", {
+        text: qr6,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 7
+        ref = doc(db,"BusQR","B9TajU2a1iUGmEXP8TqZ");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr7 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn7").innerHTML += qr.BusNum;
+        document.getElementById("srcsta7").innerHTML += createMap(map.get("6")).keys().next().value;
+        document.getElementById("dststa7").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr7", {
+        text: qr7,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 8
+        ref = doc(db,"BusQR","BljeUTcYoOfScoxG64ae");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr8 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn8").innerHTML += qr.BusNum;
+        document.getElementById("srcsta8").innerHTML += createMap(map.get("6")).keys().next().value;
+        document.getElementById("dststa8").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr8", {
+        text: qr8,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 9
+        ref = doc(db,"BusQR","Cst4OZljO0l9tLmjb1SJ");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr9 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn9").innerHTML += qr.BusNum;
+        document.getElementById("srcsta9").innerHTML += createMap(map.get("6")).keys().next().value;
+        document.getElementById("dststa9").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr9", {
+        text: qr9,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 10
+        ref = doc(db,"BusQR","EIym2QWTkCqu69z0qZ2h");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr10 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn10").innerHTML += qr.BusNum;
+        document.getElementById("srcsta10").innerHTML += createMap(map.get("5")).keys().next().value;
+        document.getElementById("dststa10").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr10", {
+        text: qr10,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 11
+        ref = doc(db,"BusQR","Ed6mzln9NxwZZkx6pCj8");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr11 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn11").innerHTML += qr.BusNum;
+        document.getElementById("srcsta11").innerHTML += createMap(map.get("7")).keys().next().value;
+        document.getElementById("dststa11").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr11", {
+        text: qr11,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 12
+        ref = doc(db,"BusQR","F6sxqSOPQkoK3l0OdFjK");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr12 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn12").innerHTML += qr.BusNum;
+        document.getElementById("srcsta12").innerHTML += createMap(map.get("7")).keys().next().value;
+        document.getElementById("dststa12").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr12", {
+        text: qr12,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 13
+        // ref = doc(db,"BusQR","HVpvnoPvJlxNJWsHvvcc");
+        // docSnap = await getDoc(ref);
+
+        // map = createMap(docSnap.data().Sdetails);
+        // det = stationList(map);
+        // qr = docSnap.data();
+
+        // var qr13 = JSON.stringify({
+        //     BusNum: qr.BusNum,
+        //     PassLog: qr.PasLog,
+        // });
+
+        // document.getElementById("bsn13").innerHTML += qr.BusNum;
+        // document.getElementById("srcsta13").innerHTML += createMap(map.get("8")).keys().next().value;
+        // document.getElementById("dststa13").innerHTML += qr.LastSta;
+        // var qrcode = new QRCode("qr13", {
+        // text: qr13,
+        // width: 110,
+        // height: 110,
+        // colorDark : "#000000",
+        // colorLight : "#ffffff",
+        // correctLevel : QRCode.CorrectLevel.H
+        // });
+
+
+        // Bus 14
+        ref = doc(db,"BusQR","I7RJo2QyRB9WULkcxCbP");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr14 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn14").innerHTML += qr.BusNum;
+        document.getElementById("srcsta14").innerHTML += createMap(map.get("5")).keys().next().value;
+        document.getElementById("dststa14").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr14", {
+        text: qr14,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 15
+        ref = doc(db,"BusQR","SdIqEN2GcFFlHBaMzzZF");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr15 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn15").innerHTML += qr.BusNum;
+        document.getElementById("srcsta15").innerHTML += createMap(map.get("5")).keys().next().value;
+        document.getElementById("dststa15").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr15", {
+        text: qr15,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 16
+        ref = doc(db,"BusQR","TIrRIdnb9E734Nya94tK");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr16 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn16").innerHTML += qr.BusNum;
+        document.getElementById("srcsta16").innerHTML += createMap(map.get("9")).keys().next().value;
+        document.getElementById("dststa16").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr16", {
+        text: qr16,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 17
+        ref = doc(db,"BusQR","W9CJbW6WfxgZIh68pP3V");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr18 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn18").innerHTML += qr.BusNum;
+        document.getElementById("srcsta18").innerHTML += createMap(map.get("5")).keys().next().value;
+        document.getElementById("dststa18").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr18", {
+        text: qr18,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 18
+        // ref = doc(db,"BusQR","WWaZCrnehBtfSHY4qPIL");
+        // docSnap = await getDoc(ref);
+
+        // map = createMap(docSnap.data().Sdetails);
+        // det = stationList(map);
+        // qr = docSnap.data();
+
+        // var qr18 = JSON.stringify({
+        //     BusNum: qr.BusNum,
+        //     PassLog: qr.PasLog,
+        // });
+
+        // document.getElementById("bsn18").innerHTML += qr.BusNum;
+        // document.getElementById("srcsta18").innerHTML += createMap(map.get("8")).keys().next().value;
+        // document.getElementById("dststa18").innerHTML += qr.LastSta;
+        // var qrcode = new QRCode("qr18", {
+        // text: qr18,
+        // width: 110,
+        // height: 110,
+        // colorDark : "#000000",
+        // colorLight : "#ffffff",
+        // correctLevel : QRCode.CorrectLevel.H
+        // });
+
+
+        // Bus 19
+        ref = doc(db,"BusQR","XBfgLgWMYrxtvxQDU1VJ");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr19 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn19").innerHTML += qr.BusNum;
+        document.getElementById("srcsta19").innerHTML += createMap(map.get("6")).keys().next().value;
+        document.getElementById("dststa19").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr19", {
+        text: qr19,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 20
+        ref = doc(db,"BusQR","
+ZuVMWOhch6IBm8lPHDf2");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr20 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn20").innerHTML += qr.BusNum;
+        document.getElementById("srcsta20").innerHTML += createMap(map.get("8")).keys().next().value;
+        document.getElementById("dststa20").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr20", {
+        text: qr20,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 21
+        ref = doc(db,"BusQR","Ex1LWT12Vl98i961FyRs");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr21 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn21").innerHTML += qr.BusNum;
+        document.getElementById("srcsta21").innerHTML += createMap(map.get("8")).keys().next().value;
+        document.getElementById("dststa21").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr21", {
+        text: qr21,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 22
+        ref = doc(db,"BusQR","Ex1LWT12Vl98i961FyRs");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr22 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn22").innerHTML += qr.BusNum;
+        document.getElementById("srcsta22").innerHTML += createMap(map.get("5")).keys().next().value;
+        document.getElementById("dststa22").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr22", {
+        text: qr22,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 23
+        ref = doc(db,"BusQR","Ex1LWT12Vl98i961FyRs");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr23 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn23").innerHTML += qr.BusNum;
+        document.getElementById("srcsta23").innerHTML += createMap(map.get("8")).keys().next().value;
+        document.getElementById("dststa23").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr23", {
+        text: qr23,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 24
+        ref = doc(db,"BusQR","Ex1LWT12Vl98i961FyRs");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr24 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn24").innerHTML += qr.BusNum;
+        document.getElementById("srcsta24").innerHTML += createMap(map.get("5")).keys().next().value;
+        document.getElementById("dststa24").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr24", {
+        text: qr24,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+        // Bus 25
+        ref = doc(db,"BusQR","Ex1LWT12Vl98i961FyRs");
+        docSnap = await getDoc(ref);
+
+        map = createMap(docSnap.data().Sdetails);
+        det = stationList(map);
+        qr = docSnap.data();
+
+        var qr25 = JSON.stringify({
+            BusNum: qr.BusNum,
+            PassLog: qr.PasLog,
+        });
+
+        document.getElementById("bsn25").innerHTML += qr.BusNum;
+        document.getElementById("srcsta25").innerHTML += createMap(map.get("5")).keys().next().value;
+        document.getElementById("dststa25").innerHTML += qr.LastSta;
+        var qrcode = new QRCode("qr25", {
+        text: qr25,
+        width: 110,
+        height: 110,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+        });
+
+
+      </script>
+    </body>
+</html>
